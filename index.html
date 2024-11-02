@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="./images/logo.jpeg">
+</head>
+<body>
+    
+    <header>
+        <a href="#" class="logo-holder">
+			<img src="./images/logo.jpeg">
+		</a>
+		<nav>
+			<ul id="menu">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#about">About</a>
+				</li>
+				<li>
+					<a href="#achievements">Gallery</a>
+				</li>
+				<li>
+					<a href="#projects">Events</a>
+				</li>
+				<li>
+					<a href="mailto:xyz@gmail.com" class="button">Apply Here</a>
+				</li>
+			</ul>
+			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+				</svg>
+			</a>
+		</nav>
+    </header>
+
+    <main>
+        <section class="carousel next">
+            <div class="list">
+                <article class="item other_1">
+                    <div class="main-content" 
+                    style="background-color: #9c4d2f;">
+                        <div class="content">
+                            <h2>Dr. Pippal</h2>
+                            <p class="price">HOD</p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores labore animi voluptatibus sequi illo, earum molestias explicabo officiis iste neque? Quis quod eligendi fugit, dolore nam itaque modi exercitationem voluptatem corrupti aut aspernatur. Quos non in sed ratione tenetur harum.
+                            </p>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="images/img.png" alt="">
+                        <figcaption>Dr. Pippal</figcaption>
+                    </figure>
+                </article>
+                <article class="item active">
+                    <div class="main-content" 
+                    style="background-color: #f5bfaf;">
+                        <div class="content">
+                            <h2>Ms. Manisha Bhati</h2>
+                            <p class="price">Faculty Co-ordinator</p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores labore animi voluptatibus sequi illo, earum molestias explicabo officiis iste neque? Quis quod eligendi fugit, dolore nam itaque modi exercitationem voluptatem corrupti aut aspernatur. Quos non in sed ratione tenetur harum.
+                            </p>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="images/img.png" alt="">
+                        <figcaption>Ms. Manisha Bhati</figcaption>
+                    </figure>
+                </article>
+                <article class="item other_2">
+                    <div class="main-content" 
+                    style="background-color: #dedfe1;">
+                        <div class="content">
+                            <h2>Ms. Bhumika Nirmohi</h2>
+                            <p class="price">Faculty Co-ordinator</Co-ordinator></p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores labore animi voluptatibus sequi illo, earum molestias explicabo officiis iste neque? Quis quod eligendi fugit, dolore nam itaque modi exercitationem voluptatem corrupti aut aspernatur. Quos non in sed ratione tenetur harum.
+                            </p>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="images/img.png" alt="">
+                        <figcaption>Ms. Bhumika Nirmohi</figcaption>
+                    </figure>
+                </article>
+                <article class="item">
+                    <div class="main-content" 
+                    style="background-color: #7eb63d;">
+                        <div class="content">
+                            <h2>Ms. Sneha</h2>
+                            <p class="price">President</p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores labore animi voluptatibus sequi illo, earum molestias explicabo officiis iste neque? Quis quod eligendi fugit, dolore nam itaque modi exercitationem voluptatem corrupti aut aspernatur. Quos non in sed ratione tenetur harum.
+                            </p>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="images/img.png" alt="">
+                        <figcaption>Ms. Sneha</figcaption>
+                    </figure>
+                </article>
+                <article class="item">
+                    <div class="main-content" 
+                    style="background-color: #7eb63d;">
+                        <div class="content">
+                            <h2>Mr. Sarthak</h2>
+                            <p class="price">President</p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores labore animi voluptatibus sequi illo, earum molestias explicabo officiis iste neque? Quis quod eligendi fugit, dolore nam itaque modi exercitationem voluptatem corrupti aut aspernatur. Quos non in sed ratione tenetur harum.
+                            </p>
+                        </div>
+                    </div>
+                    <figure class="image">
+                        <img src="images/img.png" alt="">
+                        <figcaption>Mr. Sarthak</figcaption>
+                    </figure>
+                </article>
+            </div>
+            <div class="arrows">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
